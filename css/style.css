@@ -1,0 +1,111 @@
+body {
+  background-color: #1e1e1e; 
+  color: #f0f0f0;             
+    font-family: 'Poppins', sans-serif;
+
+}
+#titulo{
+    background-color: rgb(68, 66, 64);
+    border: 5px solid rgb(68, 66, 64);
+    border-radius: 10px;
+}
+#final{
+    border-bottom: 5px solid black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(68, 66, 64);
+    padding-left: 2%;
+    padding-top: 1%;
+    display: flex;  
+    gap: 25px;  
+    border-radius: 5px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+    border: solid, 1px ,gray; 
+    background-color: rgb(48, 46, 44);
+    border-radius: 10px;
+  }
+
+#Insta{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+    border: solid, 1px ,gray; 
+    background-color: rgb(48, 46, 44);
+    border-radius: 10px;
+}
+#WhatsApp{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: solid, 1px, gray;
+  border-radius: 10px;
+  background-color: rgb(48, 46, 44);
+  cursor: pointer;
+}
+#Maps{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: solid, 1px, gray;
+  border-radius: 10px;
+  background-color: rgb(48, 46, 44);
+  cursor: pointer;
+}
+#texto #p{
+  font-size: 20px; text-indent: 2em;
+}
+#texto #titulo2{
+  background-color: rgb(68, 66, 64);
+    border: 5px solid rgb(68, 66, 64);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+#tabela {
+  font-size: 19px;
+  background-color: rgb(48, 46, 46);
+  margin: 0 auto;
+  border-radius: 10px;
+}
+#margem{
+  padding: 50px;
+}
+#Credito #img{
+ height: 60px;
+ 
+}
+#cabeçario img{
+  vertical-align: middle;
+ border-radius: 50%; 
+ width: 50px;
+ padding: 3px;
+}
+#cabeçario span{
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+#cabeçario{
+   position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    z-index: 1000; 
+    background-color: rgb(68, 66, 64);
+    border-radius: 5px;
+}
